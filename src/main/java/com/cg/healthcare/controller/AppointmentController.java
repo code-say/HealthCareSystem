@@ -38,7 +38,7 @@ public class AppointmentController {
 	 * @RequestBody: It used to bind the HTTP request/response body with a domain object in method parameter or return type.
 	 * Created By-Yash A Dhamdhere
      	 * Created Date 10 -01-2022 
-	 * 
+	 * AppointmentController
 	 ****************************/
 	
 
