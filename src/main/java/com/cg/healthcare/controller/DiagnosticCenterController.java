@@ -31,6 +31,12 @@ import com.cg.healthcare.service.IAppointmentService;
 import com.cg.healthcare.service.IDiagnosticCenterService;
 import com.cg.healthcare.service.IDiagnosticCenterServiceImpl;
 import com.cg.healthcare.service.IDiagnosticTestService;
+/*
+ * Diagnosticcenter Service Implementation Layer
+ * Author:sachin rathod
+ * date created:07/01/2022
+ *This is Diagnosticcenter Service
+ */
 @Controller
 @ResponseBody
 @RequestMapping("/DiagnosticCenter")
@@ -242,3 +248,4 @@ public class DiagnosticCenterController {
 	
 
 }
+
