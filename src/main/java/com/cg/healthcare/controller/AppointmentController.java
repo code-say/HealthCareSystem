@@ -21,6 +21,12 @@ import com.cg.healthcare.exception.PatientNotFoundException;
 import com.cg.healthcare.exception.TestResultNotFoundException;
 import com.cg.healthcare.service.IAppointmentService;
 
+/*********************
+* Controller
+* Created By-Yash A Dhamdhere
+* Created Date 10 -01-2022
+
+***********************/
 
 @RestController
 @RequestMapping("/Appointment")
