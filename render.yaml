@@ -1,0 +1,16 @@
+# Render Blueprint: the ASP.NET Core API as a free Docker web service.
+# The React client is deployed separately on Vercel (see client/).
+services:
+  - type: web
+    name: healthcare-api
+    runtime: docker
+    plan: free
+    rootDir: api
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: Jwt__Key
+        generateValue: true
+      - key: Cors__Origins
+        sync: false # set to the client URL, e.g. https://healthcare-code-say.vercel.app
