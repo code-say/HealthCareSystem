@@ -4,7 +4,7 @@ Book diagnostic tests online: patients choose a diagnostic center, pick tests an
 
 [![CI](https://github.com/code-say/HealthCareSystem/actions/workflows/ci.yml/badge.svg)](https://github.com/code-say/HealthCareSystem/actions/workflows/ci.yml)
 
-- **Live app:** https://healthcare-code-say.vercel.app
+- **Live app:** https://health-care-system-green.vercel.app
 - **API reference:** https://healthcare-api-tsts.onrender.com/scalar/v1
 
 > The API runs on Render's free tier, which sleeps when idle, so the first request can take up to a minute. Demo data resets when the server restarts.

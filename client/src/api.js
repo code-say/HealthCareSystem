@@ -1,5 +1,7 @@
 // Thin fetch wrapper for the ASP.NET Core API.
-export const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5080').replace(/\/$/, '')
+// VITE_API_URL overrides; production builds default to the hosted API so no host config is needed.
+const DEFAULT_API = import.meta.env.PROD ? 'https://healthcare-api-tsts.onrender.com' : 'http://localhost:5080'
+export const API_URL = (import.meta.env.VITE_API_URL || DEFAULT_API).replace(/\/$/, '')
 
 const TOKEN_KEY = 'healthcare.auth'
 

@@ -13,4 +13,4 @@ services:
       - key: Jwt__Key
         generateValue: true
       - key: Cors__Origins
-        sync: false # set to the client URL, e.g. https://healthcare-code-say.vercel.app
+        sync: false # set to the client URL, e.g. https://health-care-system-green.vercel.app
